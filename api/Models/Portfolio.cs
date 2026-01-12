@@ -14,6 +14,7 @@ namespace api.Models
         public AppUser AppUser { get; set; }
         public Stock Stock { get; set; }
         public Stock Stocks { get; set; }
+        public Stock ChechBranch { get; set; }//Only for checking git
         //check for pull 
     }
 }
